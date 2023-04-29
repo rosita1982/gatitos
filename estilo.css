@@ -1,0 +1,114 @@
+
+ 
+ body {
+  background-color: blanchedalmond;
+  color: crimson rgb(209, 107, 209);
+}
+
+p{
+    color: black;
+}
+h2 {
+    font-size: 20px;
+} 
+
+h3 {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p,
+ul,
+ol {
+    font-size 50px;
+}
+
+h1 {
+    font-family: 'roboto', sans-serif;
+}
+
+li {
+    color: mediumpurple;
+    font-size: 15px;
+}
+
+img {
+
+  width: 500px;
+}
+
+.imagen-de-gato {
+    width: 200px;
+    border-width: 5px;
+    border-color: lightpink (188, 59, 160);
+    border-style: dotted ridge double;
+}
+
+.bordes-redondeados {
+   border-radius: 50px;
+}
+
+.bordes-redondeados {
+    border-radius: 10px;
+}
+
+div {
+    background-color: lightblue;
+}
+
+#titulo-app-gatos {
+    font-size: 30px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#imagen-de-lasagna {
+    width: 300px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+}
+
+#lista-gatos-aman {
+    font-size: 18px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imagen-con-padding {
+    width: 300px;
+    padding: 20px;
+    background-color: yellow;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-top: 40px;
+    padding-left: 50px;
+    
+    padding: 30px 25px 40px 50px;
+
+    margin: 20px; 
+
+    margin: 20px 15px 10px 5px
+}
+
+img[alt] {
+    border-radius: 50%;
+}
+
+[type="radio"] {
+    margin: 10px;
+}
+
+a[href="https://tecnolochicas.mex/"] {
+    color: violet;
+    text-decoration: none;
+    font-weight: bold;
+}

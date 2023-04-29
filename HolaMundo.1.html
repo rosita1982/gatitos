@@ -1,0 +1,138 @@
+<!--Declaración de tipo de archivo-->
+<!DOCTYPE html>
+<!--Documento Raíz-->
+<html lang="es">
+    <head>
+    <!--Agregar Archivos Externos-->
+        <title>Apps de Gatos</title>
+        <style>
+            h1 {
+                color: blueviolet;
+            }
+            h3 {
+                color: crimson;
+            }
+            p{
+                color: deeppink;
+            }
+        </style>
+    </head>
+    <body>
+    <!--body = Estructura de la Página-->
+    <!--Crear encabezados-->
+    <h1>¡Hola, mundo!</h1> <!--Nivel más grande de encabezado-->
+    <h2>¡Hola, mundo!</h2> <!--Etiqueta de apertura + contenido + etiqueta de cierre-->
+    <h3>¡Hola, mundo!</h3>
+    <h4>¡Hola, mundo!</h4>
+    <h5>¡Hola, mundo!</h5>
+    <h6>¡Hola, mundo!</h6>
+
+    <h2 style="color: deepskyblue (205, 248, 255);">AppDeGatos></h2>
+
+    <h1>AppDeGatos</h1>
+    <link href="estilo.css" rel="stylesheet"> 
+    <main>
+        <h3>Imágenes de Gatos:</h3>
+        <!--Así se escribe un comentario Comando: CTRL + K después CTRL + C-->
+        
+        <!--img = image, src = source-->
+        <img src="https://bit.ly/3N6uSMy" alt="gatito negro"> <!--imagen desde Internet--> 
+
+
+        <hr> <!--Etiqueta hr = Horizontal Rule-->
+
+        <h3>Listas de gatos</h3>
+        <div> <!--Elemento div-->
+            <p>Cosas que los gatos <strong> aman </strong>:</p> <!--strong para hacer la letra negrita-->
+            <!--em para hacer la letra cursiva-->
+            <p><em>Listas hechas por Grupo1</em></p> 
+            <!--Listas no ordenadas-->
+            <!--ul = unordered list-->
+                <ul> 
+                    <li>Juguetes</li> <!--li = list item-->
+                    <li>Lasagna</li> 
+                </ul> 
+                <img src="C:\Users\ALUMNOS\Documents\TECNOLOCHICAS\PrimerProyectoG1\descarga.jfif" alt="lasagna"> <!--imagen desde nuestro dispositivo-->
+                
+                <p>Cosas que los gatos <strong>odian</strong>:</p>
+                <!--Listas ordenadas-->
+                <ol> <!--ol = ordered list-->
+                    <li><s>Otros gatos</s></li> <!--Etiqueta 's' para texto tachado-->
+                </ol> 
+        </div>
+            <img src="C:\Users\ALUMNOS\Documents\TECNOLOCHICAS\descarga2.png" alt="gatito"> <!--imagen desde nuestro dispositivo-->
+
+         <!--Crear enlaces internos / Enlaces a Secciones Internas-->
+
+         <a href="#parrafo-1">Párrafo 1</a>
+         <a href="#parrafo-2">Párrafo 2</a>
+         <a href="#parrafo-3">Párrafo 3</a>
+         <a href="#parrafo-4">Parráfo 4</a>
+
+        <h3 id="parrafo-1">Párrafo 1</h3>
+        
+        <p>Texto</p>
+
+        <h3 id="parrafo-2">Párrafo 2</h3>
+        <p>Texto</p>
+
+        <h3 id="parrafo-3">Párrafo 3</h3>
+        <p>Texto</p>
+
+        <h3 id="parrafo-4">Párrafo 4</h3>
+        <p>Texto</p>
+        
+         <!--Crear enlaces externos-->
+        <p>En este link <a href="https://bit.ly/3zh6lyu" target="_blank" rel="noopener noreferrer">puedes ver más imágenes de gatos.</a></p>
+
+
+        <!--Enlaces con imágenes-->
+        <a href="C:\Users\ALUMNOS\Documents\TECNOLOCHICAS\PrimerProyectoG1" target="_blank"><img src="data:image/jpeg;base64,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" alt="gatito negro"></a>
+
+        <img src="C:\Users\ALUMNOS\Documents\TECNOLOCHICAS\PrimerProyectoG1" alt="lasagna"><img src="https://assets.unileversolutions.com/recipes-v2/232080.jpg">
+
+        <!--Crear enlaces con #. Enlaces muertos o dead links-->
+        <p>Visita nuestro <a href="#" rel="noopener noreferrer">nuevo sitio web aquí</a></p>
+
+            <!--Formulario-->
+            <form action="/enviar-respuesta">
+                <!--Texto y botón enviar-->
+                <input type="text" placeholder="URL de la foto de tu gato" required>
+                <br>
+                <button type="submit">Enviar</button>
+               
+                <!--Botones de radio-->
+                <p>¿Tu gato es cachorro o adulto?</p>
+                    <label for="cachorro">
+                        <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro
+                    </label>
+                    <br>
+                    <label for="adulto">
+                        <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+                    </label>
+                    <br>
+
+
+                <!--Casillas de verificación-->
+                <p>¿Qué tipo de gato es el tuyo?</p>
+                <label for="carinoso">
+                    <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked> Cariñoso
+                </label>
+                <br>
+                <label for="perezoso">
+                    <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"> Perezoso
+                </label>
+                <br>
+                <label for="energico">
+                    <input id="energico" type="checkbox" value="energico" name="personalidad"> Enérgico
+                </label>
+                <br>         
+            </form>
+        </main>
+        <!--pie de página-->
+        <footer>
+            <!--Etiqueta small para que el pie de página se vea más pequeño-->
+            <p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">tecnolochicas.mx</a></small></p>
+        </footer>
+     </body>
+</html>
